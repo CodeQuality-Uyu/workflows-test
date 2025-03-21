@@ -8,7 +8,7 @@ on:
 jobs:
   run:
     name: Run
-    uses: CodeQuality-Uyu/workflows/.github/workflows/reusable-code-analysis.yml@main
+    uses: IngSoft-DA2/workflows/.github/workflows/reusable-code-analysis.yml@main
     permissions: write-all
     with:
       solution-name: 'Test.sln'

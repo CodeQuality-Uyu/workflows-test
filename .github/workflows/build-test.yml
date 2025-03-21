@@ -11,4 +11,4 @@ jobs:
     uses: CodeQuality-Uyu/workflows/.github/workflows/reusable-build-test.yml@main
     permissions: write-all
     with:
-      solution-name: 'Test.sln'
+      solution-name: Test.sln

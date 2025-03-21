@@ -7,7 +7,7 @@ on:
 jobs:
   run:
     name: Run
-    uses: IngSoft-DA2/workflows/.github/workflows/reusable-tag.yml@main
+    uses: CodeQuality-Uyu/workflows/.github/workflows/reusable-tag.yml@main
     permissions: write-all
     with:
       mayor: main

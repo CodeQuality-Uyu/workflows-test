@@ -11,4 +11,4 @@ jobs:
     permissions: write-all
     uses: IngSoft-DA2/workflows/.github/workflows/reusable-build-test.yml@block-when-failure
     with:
-      solution-name: 'Test.sln'
+      solution-name: Test.sln

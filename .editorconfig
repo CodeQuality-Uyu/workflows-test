@@ -222,7 +222,7 @@ dotnet_diagnostic.SA1645.severity = None
 dotnet_diagnostic.SA1646.severity = None
 dotnet_diagnostic.SA1647.severity = None
 dotnet_diagnostic.SA1648.severity = Warning
-dotnet_diagnostic.SA1649.severity = Warning
+dotnet_diagnostic.SA1649.severity = Error
 dotnet_diagnostic.SA1650.severity = None
 dotnet_diagnostic.SA1651.severity = Warning
 

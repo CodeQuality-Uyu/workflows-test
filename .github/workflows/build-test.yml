@@ -14,4 +14,4 @@ jobs:
     uses: IngSoft-DA2/workflows/.github/workflows/reusable-build-test.yml@empty-test
     permissions: write-all
     with:
-      solution-name: 'Test.sln'
+      solution-name: Test.sln

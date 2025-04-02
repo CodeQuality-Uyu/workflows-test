@@ -4,12 +4,14 @@ on:
   pull_request:
   push:
     branches: [main, develop]
+    paths:
+    - '**.cs'
+    - '**.csproj'
 
 jobs:
   run:
     name: Run
-    if: "!contains(github.event.pull_request.labels.*.name, 'Blocked: Fix Required')"
-    uses: IngSoft-DA2/workflows/.github/workflows/reusable-build-test.yml@block-when-failure
+    uses: IngSoft-DA2/workflows/.github/workflows/reusable-build-test.yml@main
     permissions: write-all
     with:
-      solution-name: Test.sln
+      solution-name: '<<el nombre del archivo de tu solucion, por ejemplo: Test.sln>>'
